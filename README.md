@@ -47,39 +47,3 @@ python app.py
 ```
 
 O servidor vai iniciar em `http://localhost:5000`.
-
-## Rotas da API
-
-### Adicionar item — `POST /api/estoque`
-
-Body (JSON):
-
-```json
-{
-    "nome": "Teclado",
-    "marca": "Logitech",
-    "qtd_disponivel": 10,
-    "valor_unitario": 89.90
-}
-```
-
-### Listar estoque — `GET /api/estoque`
-
-Retorna todos os produtos cadastrados.
-
-### Editar item — `PUT /api/estoque/<id>`
-
-Body (JSON):
-
-```json
-{
-    "nome": "Teclado Mecânico",
-    "marca": "Logitech",
-    "qtd_disponivel": 8,
-    "valor_unitario": 129.90
-}
-```
-
-### Excluir item — `DELETE /api/estoque/<id>`
-
-Remove o produto pelo ID.
