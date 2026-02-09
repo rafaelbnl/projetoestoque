@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ### 4. Configurar a conexão
 
-No arquivo `app.py`, ajuste as credenciais do MySQL se necessário:
+No arquivo `main.py`, ajuste as credenciais do MySQL se necessário:
 
 ```python
 host='localhost',
